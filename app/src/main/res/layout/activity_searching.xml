@@ -10,12 +10,21 @@
     tools:context=".Searching">
 
     <EditText
+        android:id="@+id/Search"
         android:layout_width="351dp"
         android:layout_height="53dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="15dp"
         android:background="@color/white"
         android:hint="Search..." />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
 
     <ImageView
         android:layout_width="match_parent"
@@ -25,6 +34,7 @@
 
 
     <Button
+        android:id="@+id/btn1"
         android:layout_width="197dp"
         android:layout_height="71dp"
         android:layout_marginTop="30dp"
@@ -32,6 +42,7 @@
         android:layout_gravity="center"
         android:textStyle="bold" />
     <Button
+        android:id="@+id/btn2"
         android:layout_width="197dp"
         android:layout_height="71dp"
         android:text="Locations"
@@ -39,6 +50,7 @@
         android:layout_marginTop="25dp"
         android:textStyle="bold"/>
     <Button
+        android:id="@+id/btn3"
         android:layout_width="197dp"
         android:layout_height="71dp"
         android:layout_marginTop="25dp"
